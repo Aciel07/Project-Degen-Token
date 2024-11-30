@@ -9,25 +9,6 @@ The `DegenToken` contract is built using the OpenZeppelin library to provide sta
 
 ### Contract Functions
 
-1. **earnPoints(address player, uint256 coffeeCups)**:
-   - Allows the contract owner to mint points for a specific player based on the number of coffee cups purchased.
-   - Requires the contract owner to call this function.
-
-2. **redeemPoints(uint256 rewardUnits)**:
-   - Allows a user to redeem their points by burning them.
-   - The user must have enough points to redeem.
-
-3. **transferPoints(address recipient, uint256 amount)**:
-   - Allows a user to transfer points to another user.
-
-4. **checkBalance(address account)**:
-   - Returns the balance of points for a given user.
-
-5. **burn(uint256 amount)**:
-   - Allows a user to burn their own points.
-  
-## Interacting with the Contract
-
 ### 1. **Earn Points**
    - Use the `earnPoints(address player, uint256 coffeeCups)` function to mint points for a user.
    - Only the contract owner can call this function.
@@ -52,10 +33,3 @@ The `DegenToken` contract is built using the OpenZeppelin library to provide sta
 - OpenZeppelin Contracts library for ERC20 token functionality.
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a guide to deploy and interact with the `DegenToken` contract on the Avalanche network. Let me know if you need further assistance!
